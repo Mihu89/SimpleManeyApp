@@ -31,8 +31,8 @@ namespace SimpleManeyApp
         {
             this.lBalance = new System.Windows.Forms.Label();
             this.lExpenses = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelExpenses = new System.Windows.Forms.Panel();
+            this.panelIncomes = new System.Windows.Forms.Panel();
             this.lIncome = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -58,19 +58,19 @@ namespace SimpleManeyApp
             this.lExpenses.TabIndex = 1;
             this.lExpenses.Text = "Expenses";
             // 
-            // panel1
+            // panelExpenses
             // 
-            this.panel1.Location = new System.Drawing.Point(29, 126);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(331, 318);
-            this.panel1.TabIndex = 2;
+            this.panelExpenses.Location = new System.Drawing.Point(29, 126);
+            this.panelExpenses.Name = "panelExpenses";
+            this.panelExpenses.Size = new System.Drawing.Size(331, 318);
+            this.panelExpenses.TabIndex = 2;
             // 
-            // panel2
+            // panelIncomes
             // 
-            this.panel2.Location = new System.Drawing.Point(405, 126);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(331, 318);
-            this.panel2.TabIndex = 3;
+            this.panelIncomes.Location = new System.Drawing.Point(405, 126);
+            this.panelIncomes.Name = "panelIncomes";
+            this.panelIncomes.Size = new System.Drawing.Size(331, 318);
+            this.panelIncomes.TabIndex = 3;
             // 
             // lIncome
             // 
@@ -100,8 +100,8 @@ namespace SimpleManeyApp
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lIncome);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelIncomes);
+            this.Controls.Add(this.panelExpenses);
             this.Controls.Add(this.lExpenses);
             this.Controls.Add(this.lBalance);
             this.Name = "MainForm";
@@ -116,8 +116,8 @@ namespace SimpleManeyApp
 
         private System.Windows.Forms.Label lBalance;
         private System.Windows.Forms.Label lExpenses;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelExpenses;
+        private System.Windows.Forms.Panel panelIncomes;
         private System.Windows.Forms.Label lIncome;
         private System.Windows.Forms.Button btnAdd;
     }

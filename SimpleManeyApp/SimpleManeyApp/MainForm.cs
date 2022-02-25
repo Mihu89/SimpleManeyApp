@@ -12,6 +12,8 @@ namespace SimpleManeyApp
 {
     public partial class MainForm : Form
     {
+        List<Operation> Expenses = new List<Operation>();
+        List<Operation> Incomes = new List<Operation>();
 
         public MainForm()
         {
@@ -22,6 +24,8 @@ namespace SimpleManeyApp
         {
             lBalance.Text = "0";
             lBalance.BackColor = Color.Green;
+            panelExpenses.Controls.Add(new OperationControl("Buy T-shirt", 50, "red"));
+
 
         }
 
