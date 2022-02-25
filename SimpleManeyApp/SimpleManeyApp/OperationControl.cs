@@ -64,5 +64,11 @@ namespace SimpleManeyApp
         {
             pbDelete.Visible = true;
         }
+
+        private void OperationControl_Click(object sender, EventArgs e)
+        {
+            var popup = new PopupForm(Title, Cost);
+            popup.ShowDialog();
+        }
     }
 }

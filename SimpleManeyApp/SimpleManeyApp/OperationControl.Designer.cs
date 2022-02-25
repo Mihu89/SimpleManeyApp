@@ -76,6 +76,7 @@ namespace SimpleManeyApp
             this.Name = "OperationControl";
             this.Size = new System.Drawing.Size(249, 131);
             this.Load += new System.EventHandler(this.OperationControl_Load);
+            this.Click += new System.EventHandler(this.OperationControl_Click);
             this.MouseHover += new System.EventHandler(this.OperationControl_MouseHover);
             ((System.ComponentModel.ISupportInitialize)(this.pbDelete)).EndInit();
             this.ResumeLayout(false);

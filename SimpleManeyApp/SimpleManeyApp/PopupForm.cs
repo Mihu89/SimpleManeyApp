@@ -12,9 +12,30 @@ namespace SimpleManeyApp
 {
     public partial class PopupForm : Form
     {
+        private string _title;
+        private decimal _cost;
+
         public PopupForm()
         {
             InitializeComponent();
+        }
+
+        public PopupForm(string title, decimal cost)
+        {
+            InitializeComponent();
+            try
+            {
+                _title = title;
+                _cost = cost;
+                tbTitle.Text = _title;
+                tbCost.Text = _cost.ToString();
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+
         }
 
         private void btnSave_Click(object sender, EventArgs e)
