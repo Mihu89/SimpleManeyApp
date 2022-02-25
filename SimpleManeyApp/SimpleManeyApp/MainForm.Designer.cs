@@ -43,7 +43,7 @@ namespace SimpleManeyApp
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lBalance.AutoSize = true;
             this.lBalance.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lBalance.Location = new System.Drawing.Point(398, 26);
+            this.lBalance.Location = new System.Drawing.Point(364, 26);
             this.lBalance.Name = "lBalance";
             this.lBalance.Size = new System.Drawing.Size(0, 37);
             this.lBalance.TabIndex = 0;
@@ -60,14 +60,14 @@ namespace SimpleManeyApp
             // 
             // panelExpenses
             // 
-            this.panelExpenses.Location = new System.Drawing.Point(29, 126);
+            this.panelExpenses.Location = new System.Drawing.Point(12, 122);
             this.panelExpenses.Name = "panelExpenses";
             this.panelExpenses.Size = new System.Drawing.Size(331, 318);
             this.panelExpenses.TabIndex = 2;
             // 
             // panelIncomes
             // 
-            this.panelIncomes.Location = new System.Drawing.Point(405, 126);
+            this.panelIncomes.Location = new System.Drawing.Point(457, 122);
             this.panelIncomes.Name = "panelIncomes";
             this.panelIncomes.Size = new System.Drawing.Size(331, 318);
             this.panelIncomes.TabIndex = 3;
