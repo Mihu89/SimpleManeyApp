@@ -24,5 +24,11 @@ namespace SimpleManeyApp
             lBalance.BackColor = Color.Green;
 
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            var popupForm = new PopupForm();
+            popupForm.ShowDialog();
+        }
     }
 }
